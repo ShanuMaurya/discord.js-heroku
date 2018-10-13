@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 client.on("message", (message) => {
   if(message.content === "hug") {
-    message.channel.send(" *hugs you_!*");
+    message.channel.send("*hugs you*");
   }
 });
 
