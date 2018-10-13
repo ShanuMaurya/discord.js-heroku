@@ -3,12 +3,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const activities_list = [
-    {"with the &help command."
-    type:3
-    }
+    "with the &help command.",
     "with the developers console",
     "with some code", 
-    "with JavaScript"
+    "with Frosty",
+    "with Sρυυкιι Pεтяσℓ シ",
+    "with ♥"
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
