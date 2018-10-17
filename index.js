@@ -7,8 +7,7 @@ const client = new Discord.Client();
 const clbot = new Cleverbot;
 
  const activities_list = [
-
-  "with 490+ Members",
+"with 490+ Members",
 "with •.¸♡ ᴅᴀᴅᴅʏ ♡¸.•",
 "with -SaKun-",
 "with -ˏˋ𝒥𝓊𝓃𝒾𝓅𝑒𝓇𝓇ˎˊ-",
@@ -180,7 +179,7 @@ const clbot = new Cleverbot;
 "with Lila",
 "with Livid",
 "with LookingUp",
-"with Loser",  
+"with Loser"
 "with LuLu",
 "with Lucifer",
 "with Lucifer",
@@ -202,7 +201,7 @@ const clbot = new Cleverbot;
 "with Miamomoh",
 "with Michael Scott",
 "with MidgetMouse",
-"with MiniMark",  
+"with MiniMark"
 "with Mintea DuMa",
 "with MissForgetFull",
 "with Moretingz",
@@ -228,7 +227,7 @@ const clbot = new Cleverbot;
 "with Nulthar",
 "with NyanCat",
 "with Olandra",
-"with Onii_Sama",  
+"with Onii_Sama"
 "with Ooga Booga",
 "with Orangeboi",
 "with PM|Evening Escape|＠me=attention",
@@ -241,7 +240,7 @@ const clbot = new Cleverbot;
 "with Pon",
 "with Popdicle",
 "with Poring",
-"with Potato_Lord",  
+"with Potato_Lord"
 "with Potatomeister",
 "with Preston",
 "with Purple",
@@ -297,7 +296,7 @@ const clbot = new Cleverbot;
 "with Statbot",
 "with Stips Chilan",
 "with SuperAngel",
-"with Superdila",  
+"with Superdila"
 "with Swigglywigglyniggy",
 "with Syera Nightcore",
 "with Sρυυкιι Pεтяσℓ シ",
@@ -336,7 +335,7 @@ const clbot = new Cleverbot;
 "with Yoshinuchi",
 "with Your Hentai Waifu",
 "with Yuri Slave",
-"with Z  z z",  
+"with Z  z z"
 "with Z N!TH",
 "with ZERØ",
 "with Zenaku",
@@ -424,7 +423,7 @@ const clbot = new Cleverbot;
 "with nutingButter",
 "with omulettes",
 "with oncir",
-"with persel",  
+"with persel"
 "with pierre",
 "with pollution",
 "with postalnotes",
@@ -448,7 +447,7 @@ const clbot = new Cleverbot;
 "with theterriblegamer",
 "with tokyoturtle",
 "with trololo",
-"with waesabii",  
+"with waesabii"
 "with whoomperscoomper",
 "with xInfinity",
 "with yaneko",
@@ -456,14 +455,14 @@ const clbot = new Cleverbot;
 "with yayaboomerang",
 "with wigb you too good",
 "with yumi",
-"with zoltar",  
+"with zoltar",
 "with ×o×",
 "with ýæğəř",
 "with Žinių Barakuda",
 "with кαfυυ ¢нιиσ",
 "with кεωℓsωeet",
 "with м¢HEaveNTAI",
-"with ֆɦǟɢքɨʟɛ",  
+"with ֆɦǟɢքɨʟɛ" 
 "with ღGradNC",
 "with ᏟᏜɲᗬY Eriii",
 "with ℂ𝕙𝕒𝕣𝕚𝕤𝕞𝕒𝕥𝕚𝕔𝕋𝕖𝕔𝕙",
@@ -489,7 +488,6 @@ const clbot = new Cleverbot;
 "with 🎃Spoop Pumpkin🎃",
 "with 😎AncientLegend   😎",
 "with 🥀BabyJada🥀"
-  
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
