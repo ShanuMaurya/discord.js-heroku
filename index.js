@@ -12,7 +12,7 @@ const clbot = new Cleverbot;
 "with -SaKun-",
 "with -ˏˋ𝒥𝓊𝓃𝒾𝓅𝑒𝓇𝓇ˎˊ-",
 "with .🐊.",
-"with Superdila"
+"with Superdila",
 "with Swigglywigglyniggy",
 "with Syera Nightcore",
 "with Sρυυкιι Pεтяσℓ シ",
@@ -81,7 +81,7 @@ const clbot = new Cleverbot;
 "with ◐𝙊𝙣𝙚𝙉𝙞𝙜𝙝𝙩◑",
 "with ◭ KiriBaku gives me life ◮",
 "with ☬Lizard_  ☬",
-"with ☯Kairony☯"
+"with ☯Kairony☯",
 "with ☯natasja☯",
 "with ✘ℏᾰтḙ Պʏ ℓ!ḟḙ✘",
 "with ✞Illusion✞",
@@ -106,7 +106,7 @@ client.on('ready', () => {
 
     setInterval(() => {
 
-        const index = Math.floor(Math.random() * (activities_list.length - 5) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
 
         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
 
