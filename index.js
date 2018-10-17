@@ -471,7 +471,7 @@ const clbot = new Cleverbot;
 "with ◐𝙊𝙣𝙚𝙉𝙞𝙜𝙝𝙩◑",
 "with ◭ KiriBaku gives me life ◮",
 "with ☬Lizard_  ☬",
-"with ☯Kairony☯",
+"with ☯Kairony☯"
 "with ☯natasja☯",
 "with ✘ℏᾰтḙ Պʏ ℓ!ḟḙ✘",
 "with ✞Illusion✞",
@@ -488,7 +488,9 @@ const clbot = new Cleverbot;
 "with 🎃Spoop Pumpkin🎃",
 "with 😎AncientLegend   😎",
 "with 🥀BabyJada🥀"
-    ]; // creates an arraylist containing phrases you want your bot to switch through.
+   
+ 
+ ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
 
