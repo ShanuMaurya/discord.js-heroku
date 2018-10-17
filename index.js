@@ -48,7 +48,7 @@ const clbot = new Cleverbot;
 "with killerx",
 "with kirishima best boy",
 "with kirito",
-"with kyoko ♪",,
+"with kyoko ♪",
 "with spookyjollybutts;D",
 "with strangerdanger",
 "with sumfuckhead",
@@ -72,7 +72,7 @@ const clbot = new Cleverbot;
 "with кαfυυ ¢нιиσ",
 "with кεωℓsωeet",
 "with м¢HEaveNTAI",
-"with ֆɦǟɢքɨʟɛ" 
+"with ֆɦǟɢքɨʟɛ",
 "with ღGradNC",
 "with ᏟᏜɲᗬY Eriii",
 "with ℂ𝕙𝕒𝕣𝕚𝕤𝕞𝕒𝕥𝕚𝕔𝕋𝕖𝕔𝕙",
@@ -96,7 +96,7 @@ const clbot = new Cleverbot;
 "with 🌌 Perry 🌌",
 "with 🎃MustangDeathness🎃",
 "with 🎃Spoop Pumpkin🎃",
-"with 😎AncientLegend   😎",
+"with 😎AncientLegend😎",
 "with 🥀BabyJada🥀"
    
  
