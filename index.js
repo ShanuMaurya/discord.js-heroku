@@ -177,7 +177,7 @@ const clbot = new Cleverbot;
 "with Lila",
 "with Livid",
 "with LookingUp",
-"with Loser"
+"with Loser",
 "with LuLu",
 "with Lucifer",
 "with Lucifer",
@@ -199,7 +199,7 @@ const clbot = new Cleverbot;
 "with Miamomoh",
 "with Michael Scott",
 "with MidgetMouse",
-"with MiniMark"
+"with MiniMark",
 "with Mintea DuMa",
 "with MissForgetFull",
 "with Moretingz",
@@ -225,7 +225,7 @@ const clbot = new Cleverbot;
 "with Nulthar",
 "with NyanCat",
 "with Olandra",
-"with Onii_Sama"
+"with Onii_Sama",
 "with Ooga Booga",
 "with Orangeboi",
 "with PM|Evening Escape|＠me=attention",
@@ -238,7 +238,7 @@ const clbot = new Cleverbot;
 "with Pon",
 "with Popdicle",
 "with Poring",
-"with Potato_Lord"
+"with Potato_Lord",
 "with Potatomeister",
 "with Preston",
 "with Purple",
