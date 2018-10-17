@@ -6,13 +6,13 @@ const client = new Discord.Client();
 
 const clbot = new Cleverbot;
 
-const activities = require('./activities.json');
+ activities = require('./activities.json');
   // creates an arraylist containing phrases you want your bot to switch through.
-
+const game = ('activities.activities_list')
 client.on('ready', () => {
     setInterval(() => {
-        const index = Math.floor(Math.random() * ((activities.activities_list).length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-        client.user.setActivity (activities.activities_list)[index]); // sets bot's activities to one of the phrases in the arraylist.
+        const index = Math.floor(Math.random() * (activities.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+        client.user.setActivity activities[index]); // sets bot's activities to one of the phrases in the arraylist.
     }, 20000); // Runs this every 10 seconds.
 });
 
