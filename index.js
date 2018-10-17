@@ -499,7 +499,7 @@ client.on('ready', () => {
 
         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
 
-    }, 10000); // Runs this every 10 seconds.
+    }, 15000); // Runs this every 10 seconds.
 
 });
 
