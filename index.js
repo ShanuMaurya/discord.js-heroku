@@ -1,20 +1,18 @@
 // Discord.js bot
 const Discord = require('discord.js');
+const Cleverbot = require("cleverbot-node");
+
 const client = new Discord.Client();
 
-const activities_list = [
-    "with the &help command.",
-    "with the developers console",
-    "with some code", 
-    "with Frosty",
-    "with Sρυυкιι Pεтяσℓ シ",
-    "♥"
-    ]; // creates an arraylist containing phrases you want your bot to switch through.
+const clbot = new Cleverbot;
+
+const activities = require('./activities.json');
+  // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
     setInterval(() => {
-        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-        client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
+        const index = Math.floor(Math.random() * ((activities.activities_list).length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+        client.user.setActivity (activities.activities_list)[index]); // sets bot's activities to one of the phrases in the arraylist.
     }, 20000); // Runs this every 10 seconds.
 });
 
@@ -23,5 +21,24 @@ client.on("message", (message) => {
     message.channel.send("*hugs you*");
   }
 });
-
+client.on("message", message => {
+  if (message.channel.type === "dm") {
+    clbot.write(message.content, (response) => {
+      message.channel.startTyping();
+      setTimeout(() => {
+        message.channel.send(response.output).catch(console.error);
+        message.channel.stopTyping();
+      }, Math.random() * (1 - 3) + 1 * 1000);
+    });
+  }
+});
+ 
 client.login(process.env.TOKEN);
+
+
+
+
+
+
+
+
