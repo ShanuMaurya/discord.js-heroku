@@ -12,7 +12,7 @@ const clbot = new Cleverbot;
 "with -SaKun-",
 "with -ˏˋ𝒥𝓊𝓃𝒾𝓅𝑒𝓇𝓇ˎˊ-",
 "with .🐊.",
-"with A Q T  .  ",
+"with A Q T  .",
 "with A Z T H E T I X",
 "with ACE",
 "with APH romano is a mood",
@@ -52,8 +52,6 @@ const clbot = new Cleverbot;
 "with Bepis",
 "with Beta",
 "with Black☆Star",
-"with Bo",
-"with Bob the   th",
 "with BobbyEskobar",
 "with BoobBot™",
 "with Bread",
@@ -335,7 +333,7 @@ const clbot = new Cleverbot;
 "with Yoshinuchi",
 "with Your Hentai Waifu",
 "with Yuri Slave",
-"with Z  z z"
+"with Z  z z",
 "with Z N!TH",
 "with ZERØ",
 "with Zenaku",
@@ -423,7 +421,7 @@ const clbot = new Cleverbot;
 "with nutingButter",
 "with omulettes",
 "with oncir",
-"with persel"
+"with persel",
 "with pierre",
 "with pollution",
 "with postalnotes",
@@ -447,7 +445,7 @@ const clbot = new Cleverbot;
 "with theterriblegamer",
 "with tokyoturtle",
 "with trololo",
-"with waesabii"
+"with waesabii",
 "with whoomperscoomper",
 "with xInfinity",
 "with yaneko",
@@ -496,7 +494,7 @@ client.on('ready', () => {
 
     setInterval(() => {
 
-        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1 * 400); // generates a random number between 1 and the length of the activities array list (in this case 5).
+        const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
 
         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
 
