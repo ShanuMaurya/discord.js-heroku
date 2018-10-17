@@ -119,17 +119,6 @@ client.on("message", (message) => {
     message.channel.send("*hugs you*");
   }
 });
-client.on("message", message => {
-  if (message.channel.type === "dm") {
-    clbot.write(message.content, (response) => {
-      message.channel.startTyping();
-      setTimeout(() => {
-        message.channel.send(response.output).catch(console.error);
-        message.channel.stopTyping();
-      }, Math.random() * (1 - 3) + 1 * 1000);
-    });
-  }
-});
  
 client.login(process.env.TOKEN);
 
