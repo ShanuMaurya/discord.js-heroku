@@ -17,7 +17,7 @@ const clbot = new Cleverbot;
 "with ACE",
 "with APH romano is a mood",
 "with AX_D̸͌R̴A̷K̷͗E̴ ツ",
-"with Abdellah",",
+"with Abdellah",
 "with Adolf Hitler",
 "with AdorableEgoist",
 "with Aivariox",
