@@ -4,10 +4,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const activities_list = [
-    "with the &help command.", 
     "with the console",
-    "with some code", 
-    "with JavaScript",
+    "with FL Studio",
     "with my friends here",
     "Use ku!help for playing songs",
     "with Frosty",
