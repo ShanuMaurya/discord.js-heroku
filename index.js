@@ -11,7 +11,7 @@ const activities_list = [
     "with My Frosty",
     "with My Rotten Taumatheu🍅",
     "With My Lil PuP",
-    "With My Love => Narancia"
+    "With My Narancia"
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
