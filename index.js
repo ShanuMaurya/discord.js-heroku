@@ -23,7 +23,7 @@ client.on('ready', () => {
 
 client.on("message", (message) => {
     	
-     if (message.author.id !== '400359111834861568') { 
+     if (message.author.id !== '374092474907492353') { 
 		return;
 	 } 
 		
