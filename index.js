@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-
+const responseObject = require("./rep.json");
 const activities_list = [
     "with My Broken 💔",
     "With Tomato🍅 Sauce ",
@@ -22,6 +22,16 @@ client.on('ready', () => {
 });
 
 client.on("message", (message) => {
+    	
+     if (message.author.id !== '400359111834861568') { 
+		return;
+	 } 
+		
+	   if(responseObject[message.content]) {
+    message.channel.send(responseObject[message.content]);
+  }
+		
+    
   if(message.content === "hug me kurumi") {
     message.channel.send("*hugs you*");
   }
