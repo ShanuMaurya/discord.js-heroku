@@ -5,13 +5,14 @@ const client = new Discord.Client();
 const responseObject = require("./rep.json");
 const activities_list = [
     "with My Broken 💔",
-    "With Tomato🍅 Sauce ",
+    "Merry Christmas 🎄",
     "with my friends here",
-    "With My Taumatheu🍅",
+    "With Skyline",
     "with My Frosty",
-    "with My Rotten Taumatheu🍅",
+    "with Some errors of my life",
     "With My Lil PuP",
-    "With My Narancia"
+    "With My Patrol"
+	
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
 client.on('ready', () => {
