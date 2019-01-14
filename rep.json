@@ -12,6 +12,11 @@
   "shanu's bal": ".bal",
   "shanu's profile": ".profile",
   "shanu's xp": ".xp",
-  "give me money shanu": ".give 1000 Pyri @Shiro#5088"
+  "give me money shanu": ".give 1000 Pyri @Shiro#5088",
+  "do daily": ".daily",
+  "do mine": ".mine",
+  "do loot": ".loot",
+  "do salavge": ".salvage"
+  
   
 }
