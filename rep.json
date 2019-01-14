@@ -1,16 +1,17 @@
 {  
-  "hoi me1": "hoi me2",
-  "hoi me2": "hoi me3",
-  "hoi me3": "hoi me4",
-  "hoi me4": "hoi me5",
-  "hoi me5": "hoi me6",
-  "hoi me6": "hoi me7",
-  "hoi me7": "hoi me8",
-  "hoi me8": "hoi me9",
-  "hoi me9": "hoi me10",
-  "hoi me10": "hoi me12",
-  "hoi me12": "hoi me13",
-  "hoi me13": "hoi me14",
-  "hoi me14": "hoi me15",
-  "hoi me15": "hoi me1"
+  "sell scarp": ".shop sell scrap all",
+  "sell gem": ".shop sell gem all",
+  "sell rocks": ".shop sell rock all",
+  "sell power": ".shop sell power all",
+  "sell comet dust": ".shop sell comet dust all",
+  "shanu consume cookies": ".consume cookie all",
+  "shanu consume pizza": ".consume pizza all",
+  "shanu consume champagne": ".consume champagne all",
+  "shanu consume lollipop": ".consume lollipop all",
+  "shanu's inv": ".inv",
+  "shanu's bal": ".bal",
+  "shanu's profile": ".profile",
+  "shanu's xp": ".xp",
+  "give me money shanu": ".give 1000 Pyri @Shiro#5088"
+  
 }
