@@ -4,13 +4,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const responseObject = require("./rep.json");
 const activities_list = [
-    "with My Broken 💔",
-    "Merry Christmas 🎄",
+    "with Karma🔥| ❄Yukimura",
     "with my friends here",
-    "With Skyline",
+    "With My SkyLine",
     "with My Frosty",
-    "with Some errors of my life",
+    "with Errors of my life",
     "With My Lil PuP",
+    "With My Kyoko",
     "With My Patrol"
 	
     ]; // creates an arraylist containing phrases you want your bot to switch through.
@@ -24,7 +24,7 @@ client.on('ready', () => {
 
 client.on("message", (message) => {
     	
-     if (message.author.id !== '374092474907492353') { 
+     if (message.author.id !== '400359111834861568') { 
 		return;
 	 } 
 		
@@ -39,11 +39,3 @@ client.on("message", (message) => {
 });
  
 client.login(process.env.TOKEN);
-
-
-
-
-
-
-
-
