@@ -36,6 +36,9 @@ client.on("message", (message) => {
   if(message.content === "hug me kurumi") {
     message.channel.send("*hugs you*");
   }
+	  
+	  
+	  
 });
  
 client.login(process.env.TOKEN);
