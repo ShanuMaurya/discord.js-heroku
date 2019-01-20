@@ -42,7 +42,7 @@ client.on("message", (message) => {
             // use the message's channel (TextChannel) to send a new message
           message.channel.send("boosting XP 100%!")
            .catch(console.error); // add error handling here
-       }, 1 * 2000); 
+       }, 2 * 1000); 
    }
 		
     
