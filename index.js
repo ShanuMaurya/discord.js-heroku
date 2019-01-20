@@ -1,4 +1,3 @@
-// Discord.js bot
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
@@ -41,7 +40,7 @@ client.on("message", (message) => {
 	if (message.content === "boost!!!") { 
         var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
-          message.channel.send("boosting XP yay!!")
+          message.channel.send("boosting XP 100%!")
            .catch(console.error); // add error handling here
        }, 1 * 2000); 
    }
