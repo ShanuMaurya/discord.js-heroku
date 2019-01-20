@@ -1,22 +1,24 @@
 {  
-  "sell scarp": ".shop sell scrap all",
-  "sell gem": ".shop sell gem all",
-  "sell rocks": ".shop sell rock all",
-  "sell power": ".shop sell power all",
-  "sell comet dust": ".shop sell comet dust all",
-  "shanu consume cookies": ".consume cookie all",
-  "shanu consume pizza": ".consume pizza all",
-  "shanu consume champagne": ".consume champagne all",
-  "shanu consume lollipop": ".consume lollipop all",
-  "shanu's inv": ".inv",
-  "shanu's bal": ".bal",
-  "shanu's profile": ".profile",
-  "shanu's xp": ".xp",
-  "give me money shanu": ".give 1000 Pyri @Shiro#5088",
-  "do daily": ".daily",
-  "do mine": ".mine",
-  "do loot": ".loot",
-  "do salavge": ".salvage"
+  "sell all scarp": ".shop sell scrap all",
+  "sell all gem": ".shop sell gem all",
+  "sell all rocks": ".shop sell rock all",
+  "sell all power": ".shop sell power all",
+  "sell all pizza": ".shop sell pizza all",
+  "sell all cookies": ".shop sell cookie all",
+  "sell all lollipop": ".shop sell lollipop all",
+  "sell all comet dust": ".shop sell comet dust all",
+  "sell uncommon key": ".shop sell uncommon chest key"
+  "consume all cookies": ".consume cookie all",
+  "consume all pizza": ".consume pizza all",
+  "consume all champagne": ".consume champagne all",
+  "consume all lollipop": ".consume lollipop all",
+  "my inv": ".inv",
+  "my bal": ".bal",
+  "my profile": ".profile",
+  "xp": ".xp",
+  "daily pls": ".daily",
+  "mine pls": ".loot",
+  "salvage pls": ".salvage"
   
   
 }
