@@ -3,14 +3,14 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const responseObject = require("./rep.json");
 const activities_list = [
-    "with Karma🔥| ❄Yukimura",
-    "with my friends here",
-    "With My SkyLine",
-    "with My Frosty",
+    "With Karma🔥| ❄Yukimura",
+    "With my friends here",
+    "With Sloth",
+    "With My Frosty",
     "with Errors of my life",
     "With My Lil PuP",
     "With My Kyoko",
-    "With My Patrol"
+    "With My PeTroL boi"
 	
     ]; // creates an arraylist containing phrases you want your bot to switch through.
 
@@ -37,18 +37,18 @@ client.on("message", (message) => {
 	   if(responseObject[message.content]) {
     message.channel.send(responseObject[message.content]);
   } 
-	if (message.content === "boost!!!") { 
-        var interval = setInterval (function () {
+/// if (message.content === "boost!!!") { 
+        /// var interval = setInterval (function () {
             // use the message's channel (TextChannel) to send a new message
-          message.channel.send("boosting XP 100%!")
-           .catch(console.error); // add error handling here
-       }, 1 * 800); 
-   }
+         ///  message.channel.send("boosting XP 100%!")
+           /// .catch(console.error); // add error handling here
+      ///. }, 1 * 800); 
+   /// }
 		
     
-  if(message.content === "hug me kurumi") {
+  if(message.content === "hug me") {
     message.channel.send("*hugs you*");
   }
 });
  
-client.login(process.env.TOKEN);
+client.login(process.env.Keu);
